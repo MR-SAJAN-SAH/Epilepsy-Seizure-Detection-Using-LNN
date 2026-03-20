@@ -1,5 +1,6 @@
 import pyedflib
 import numpy as np
+import matplotlib.pyplot as plt
 
 file = pyedflib.EdfReader("chb01/chb01_01.edf")
 n = file.signals_in_file
